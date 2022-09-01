@@ -1,6 +1,10 @@
-export default function styleSheet(name, width, height, background){
-  name = name
-  width = width
-  height = height
-  background = background
+export default function StyleSheet(name, width, height, background){
+  this.name = name
+  this.width = width
+  this.height = height
+  this.background = background
+}
+
+root = {
+  
 }
